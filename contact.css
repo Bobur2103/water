@@ -1,0 +1,409 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.conatiner {
+    max-width: 100%;
+}
+
+
+body{
+  background-color: #0D99F0;
+}
+
+
+/* home start */
+
+/* header start */
+
+
+header {
+    padding: 20px;
+    background-color: white;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-right {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.navbar-right button {
+    width: 120px;
+    height: 30px;
+    border: none;
+    background-color: #0D99F0;
+    color: white;
+    border-radius: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+select {
+    width: 150px;
+    height: 30px;
+    padding: 1px;
+    font-size: 15px;
+    border-radius: 20px;
+}
+/* header end */
+
+
+/* main start */
+main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 150px;
+    align-items: center;
+}
+
+.royhatdan-otish{
+  width: 1250px;
+  height: 390px;
+  background-color: white;
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-around;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.main-input{
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  color: black;
+}
+
+.main-input input{
+  width: 400px;
+  height: 50px;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.main-input button{
+  width: 300px;
+  height: 50px;
+  border-radius: 10px;
+  background-color: #0D99F0;
+  color: white;
+  border: none;
+  font-size: 20px;
+}
+
+.sorov{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+}
+
+.sorov h3{
+  font-size: 35px;
+}
+
+.sorov h5{
+  font-size: 20px;
+}
+
+.div2{
+  display: flex;
+  gap: 30px;
+}
+
+.sorov button{
+  width: 270px;
+  height: 45px;
+  border-radius: 10px;
+  background-color: #0D99F0;
+  color: white;
+  border: none;
+  font-size: 20px;
+  margin-top: 55px;
+}
+
+.sorov-input{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.biz-bilan{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+
+.div3{
+  width: 420px;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.div4{
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 20px;
+}
+
+.biz-bilan button{
+  width: 250px;
+  height: 30px;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  background-color: #0D99F0;
+  font-size: 20px;
+}
+
+main iframe{
+  width: 1250px;
+  margin: 100px 0px;
+}
+/* main end */
+
+
+/* footer start */
+footer{
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+   
+}
+.footer-box a{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    background-color: white;
+}
+
+.footer-box{
+    display: flex;
+    gap: 20px;
+}
+/* footer end */
+
+
+
+.dropdown{
+  display: none;
+}
+
+@media (max-width: 625px) {
+
+  header{
+     width: 100%;
+     position: fixed;
+     background-color:white;
+     z-index: 999;
+  }
+    
+    .navbar-lift img{
+        width: 90px;
+    }
+
+    .header-a a{
+        font-size: 13px;
+    }
+
+    .navbar-right{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .header-bloc{
+      display: none;
+    }
+
+    select{
+        width: 90px;
+    }
+
+   .main-input{
+    position: absolute;
+   }
+
+   .royhatdan-otish{
+    width: 90%;
+    height: 1300px;
+    background-color: white;
+   }
+
+   .sorov{
+    position: absolute;
+    top: 550px;
+   }
+
+   .biz-bilan{
+    position: absolute;
+    top: 1000px;
+    right: 20px;
+   }
+
+   hr{
+    display: none;
+   }
+
+   main iframe{
+    width: 100%;
+    height: 300px;
+    position:  absolute;
+    top: 1400px;
+   }
+
+   footer{
+    padding: 10px;
+    width: 100%;
+    position: absolute;
+    top: 1900px;
+   }
+
+ }
+
+
+@media (max-width: 450px) {
+
+    header{
+      width: 100%;
+      padding: 10px;
+    }
+
+    .header-a{
+        display: none;
+    }
+
+    .navbar-lift img{
+        width: 120px;
+    }
+
+    select{
+        width: 100px;
+    }
+
+     .main-input{
+    position: absolute;
+   }
+
+   .main-input input{
+    width: 350px;
+   }
+
+   .royhatdan-otish{
+    width: 90%;
+    height: 1200px;
+    background-color: white;
+   }
+
+   .sorov-input{
+    display: flex;
+   }
+
+   .sorov{
+    position: absolute;
+    top: 550px;
+   }
+
+   .biz-bilan{
+    position: absolute;
+    top: 900px;
+    left: 80px;
+   }
+
+   hr{
+    display: none;
+   }
+
+   
+   main iframe{
+    width: 400px;
+    height: 300px;
+    position:  absolute;
+    top: 1300px;
+    left: 20px;
+   }
+
+   .footer-box img{
+    width: 30px;
+   }
+
+   footer{
+    padding: 10px;
+    width: 500px;
+    position: absolute;
+    top: 1800px;
+   }
+
+    
+.dropdown{
+    position: relative;
+    display: inline-block;
+
+}
+
+.dropbtn{
+    background: linear-gradient(135deg, #2962ff, #1565c0);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    border: none;
+    width: 100px;
+    margin: 10px;
+}
+
+.div2{
+    display: none;
+    position: absolute;
+    background-color: gray;
+    min-width: 100px;
+    z-index: 1;
+    margin: 0px 20px;
+    border-radius: 10px;
+}
+
+.div2 a{
+    color:white;
+    background-color: gray;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+.div2 a:hover{
+    background-color: #0D99F0;
+    color: white;
+}
+
+.dropdown:hover .div2{
+    display: block;
+}
+
+}

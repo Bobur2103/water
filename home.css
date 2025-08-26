@@ -1,0 +1,555 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.conatiner {
+    max-width: 100%;
+}
+
+body {
+    background: #2893eb;
+}
+
+/* home start */
+
+/* header start */
+
+.menu{
+    display: none;
+}
+header {
+    padding: 20px;
+    background-color: white;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-right {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.navbar-right button {
+    width: 120px;
+    height: 30px;
+    border: none;
+    background-color: #0D99F0;
+    color: white;
+    border-radius: 10px;
+}
+
+.header-a a{
+    text-decoration: none;
+    color: black;
+}
+
+
+select {
+    width: 150px;
+    height: 30px;
+    padding: 1px;
+    font-size: 15px;
+    border-radius: 20px;
+}
+
+.work {
+    width: 170px;
+    height: 30px;
+    padding: 0px;
+}
+
+select:hover {
+    background-color: #F0F2F5;
+    color: black;
+}
+
+
+
+/* header end */
+
+
+/* main start */
+main {
+    background: #2893eb;
+    height: 590px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 400px;
+    padding: 20px;
+}
+
+.main-centr {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 400px;
+    padding: 20px;
+}
+
+.bloc-img {
+    width: 500px;
+    height: 400px;
+    animation: mars 8s linear infinite;
+}
+
+@keyframes mars {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.centr-img {
+    display: flex;
+}
+
+.img-bloc {
+    width: 280px;
+    position: absolute;
+    top: 295px;
+    right: 220px;
+    border-radius: 100%;
+}
+
+
+.main-text {
+    color: white;
+    width: 400px;
+}
+
+.main-text h1 {
+    font-size: 35px;
+}
+
+.main-text p {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+
+/* From Uiverse.io by abuayaan01 */
+.main-text button {
+    margin-top: 30px;
+    border: 0px;
+    outline: 0px;
+    color: #fff;
+    width: 200px;
+    padding: 20px;
+    border-radius: 50px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.liquid {
+    background-color: #2893eb;
+    width: 200px;
+    height: 70px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    box-shadow: inset 5px -5px 25px #2893eb,
+        inset -5px 0px 25px #2D4A68;
+}
+
+.liquid::after {
+    content: '';
+    width: 450px;
+    height: 400px;
+    background: #2D4A68;
+    z-index: 1;
+    position: absolute;
+    left: -110px;
+    top: -380px;
+    border-radius: 45%;
+    animation: animate 5s linear 2s infinite;
+}
+
+.liquid::before {
+    content: '';
+    width: 450px;
+    height: 400px;
+    background-color: rgb(68, 160, 235);
+    z-index: 1;
+    position: absolute;
+    left: -110px;
+    top: -380px;
+    border-radius: 40%;
+    animation: animate 5s linear 1.8s infinite;
+}
+
+.btn-txt {
+    position: relative;
+    z-index: 1;
+    font-size: 22px;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+}
+
+@keyframes animate {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.vtamen {
+    width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 80px;
+}
+
+.hydrafae-box {
+    width: 70px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    background-color: white;
+}
+
+.hydrafae-box img {
+    border-radius: 100px;
+    background-color: white;
+}
+
+.hydrafae-box:hover {
+    background-color: ghostwhite;
+}
+
+.vetamen-text h3 {
+    font-size: 40px;
+    color: black;
+    margin: 0px 60px;
+}
+
+.vetamen-text p {
+    font-size: 20px;
+    color: black;
+    width: 280px;
+    margin: 15px 60px;
+}
+
+.hydrafe-vetamen {
+    max-width: 1200px;
+    height: 400px;
+    background-color: white;
+    color: bisque;
+    margin: 0px auto;
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.carusel {
+    margin: 30px 400px;
+}
+
+/* main end */
+
+
+
+/* footer start */
+footer {
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.footer-box a {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    background-color: white;
+}
+
+.footer-box {
+    display: flex;
+    gap: 10px;
+}
+
+/* footer end */
+
+.dropdown{
+    display: none;
+}
+
+.header-bloc{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.header-bloc a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+
+
+@media (max-width: 625px) {
+
+    header{
+       width: 100%;
+       position: fixed;
+       background-color:white;
+       z-index: 999;
+       top: 0px;
+    }
+    
+    .navbar-lift img{
+        width: 90px;
+    }
+
+    .header-a a{
+        font-size: 13px;
+    }
+
+    .navbar-right{
+        display: flex;
+        gap: 20px;
+    }
+
+    select{
+        width: 90px;
+    }
+
+    .header-bloc{
+        display: none;
+    }
+
+    .main-text{
+        position: absolute;
+        left: 40px;
+    }
+
+    .main-text h1{
+        font-size: 20px;
+        width: 250px;
+    }
+
+    .main-text p{
+        font-size: 15px;
+        width: 270px;
+    }
+    
+   .main-text button{
+    width: 150px;
+   }
+
+   .bloc-img{
+     position: absolute;
+     top: 190px;
+     width: 330px;
+     height: 250px;
+   }
+
+   .img-bloc{
+    width: 170px;
+    position: absolute;
+    top: 230px;
+    left: 400px;
+   }
+
+   .carusel{
+    width: 500px;
+    position: absolute;
+    left: -320px;
+    top: 600px;
+   }
+
+   .hydrafe-vetamen{
+    width: 600px;
+    margin-top: 550px;
+   }
+
+   .hydrafae-box img{
+    width: 40px;
+   }
+
+   .hydrafae-box{
+    width: 40px;
+   }
+
+   .carousel-item img{
+    width: 300px;
+   }
+
+   footer{
+    width: 100%;
+   }
+
+   }
+
+
+
+@media (max-width: 450px) {
+
+    .conatiner {
+     max-width: 449px;
+    }
+
+    header{
+      width: 100%;
+      position: fixed;
+      background-color:white;
+      z-index: 999;
+      top: 0px;
+    }
+
+    .header-a{
+        display: none;
+    }
+
+    .navbar-lift img{
+        width: 120px;
+    }
+
+    select{
+        width: 100px;
+    }
+
+    .img-bloc{
+        width: 230px;
+        position: absolute;
+        left: 140px;
+        top: 290px;
+    }
+
+    .bloc-img{
+        width: 450px;
+        height: 350px;
+        position: absolute;
+        top: 225px;
+        left: 30px;
+    }
+
+    .main-text{
+        position: absolute;
+        left: 30px;
+        top: 700px;
+    }
+
+    .hydrafe-vetamen{
+        width: 100%;
+        height: 100%;   
+        position: absolute;
+        top: 1600px; 
+        margin: 0px 30px;
+        display: flex;
+    }
+
+    .vtamen{
+        width: 300px;
+        display: flex;
+        gap: 40px;
+        margin-top: 350px;
+    }
+
+    .vetamen-text{
+        position: absolute;
+        top: 80px;
+    }
+
+    .hydrafae-box img{
+        width: 40px;
+    }
+
+    .hydrafae-box{
+        width: 20px;
+        height: 30px;
+    }
+
+    .carusel{
+        width: 400px;
+        position: absolute;
+        left: -350px;
+        top: 1100px;
+    }
+
+    footer{
+        width: 100%;
+        position: absolute;
+        top: 2300px;
+        left: 0px;
+        display: flex;
+    }
+  
+
+
+.dropdown{
+    position: relative;
+    display: inline-block;
+
+}
+
+.dropbtn{
+    background: linear-gradient(135deg, #2962ff, #1565c0);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    border: none;
+    width: 100px;
+    margin: 10px;
+}
+
+.div2{
+    display: none;
+    position: absolute;
+    background-color: gray;
+    min-width: 100px;
+    z-index: 1;
+    margin: 0px 20px;
+    border-radius: 10px;
+}
+
+.div2 a{
+    color:white;
+    background-color: gray;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+.div2 a:hover{
+    background-color: #0D99F0;
+    color: white;
+}
+
+.dropdown:hover .div2{
+    display: block;
+}
+
+footer{
+    width: 500px;
+}
+
+}
